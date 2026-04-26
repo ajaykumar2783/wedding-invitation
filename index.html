@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Virat and Anushka wedding invitation website with event details, gallery, countdown, and location."
+    />
+    <meta
+      name="keywords"
+      content="wedding invitation, Virat Anushka wedding, online wedding invite"
+    />
+    <meta name="author" content="Ajay Kumar S" />
+    <meta property="og:title" content="Virat & Anushka Wedding Invitation" />
+    <meta
+      property="og:description"
+      content="You are invited to celebrate our special day."
+    />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1200"
+    />
+    <meta property="og:type" content="website" />
+    
+    <title>Virat & Anushka Wedding</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- HERO -->
+    <div id="loader">💍 Loading...</div>
+    <div class="flower"></div>
+    <div class="flower2"></div>
+    <section class="hero">
+      <nav class="navbar">
+        <div class="logo">V ♥ A</div>
+
+        <div class="links">
+          <a href="#">Home</a>
+          <a href="#events">Events</a>
+          <a href="#story">Journey</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#location">Location</a>
+          <a
+            href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Virat+%26+Anushka+Wedding&dates=20261212T100000/20261212T130000"
+            target="_blank"
+            class="main-btn"
+          >
+            📅 Add to Calendar
+          </a>
+        </div>
+      </nav>
+
+      <div class="hero-content">
+        <h1>Virat <span>&</span> Anushka</h1>
+        <p>ARE GETTING MARRIED</p>
+
+        <div class="date-place">
+          <span>📅 12 December 2026</span>
+          <span>📍 Bangalore</span>
+        </div>
+
+        <p class="invite-text">
+          Together with their families, <br />
+          <strong>Virat & Anushka</strong> invite you to celebrate their wedding
+          ❤️
+        </p>
+
+        <a href="#location" class="main-btn">View Location</a>
+
+        <a
+          href="https://wa.me/?text=You are invited to Virat & Anushka Wedding 💍 https://your-link.com"
+          target="_blank"
+          class="whatsapp-btn"
+        >
+          📲 Share Invitation
+        </a>
+      </div>
+    </section>
+
+    <!-- EVENT CARDS -->
+    <section class="info-cards reveal" id="events">
+      <div class="card">
+        <h2>💍</h2>
+        <h3>Wedding</h3>
+        <p>12 Dec 2026<br />10:00 AM</p>
+      </div>
+
+      <div class="card">
+        <h2>📍</h2>
+        <h3>Venue</h3>
+        <p>The Palace Grounds<br />Bangalore</p>
+      </div>
+
+      <div class="card">
+        <h2>👗</h2>
+        <h3>Dress Code</h3>
+        <p>Traditional<br />Elegant</p>
+      </div>
+
+      <div class="card">
+        <h2>🎉</h2>
+        <h3>Reception</h3>
+        <p>13 Dec 2026<br />7:00 PM</p>
+      </div>
+    </section>
+
+    <!-- SCHEDULE -->
+    <section class="schedule reveal">
+      <h2>Wedding Events</h2>
+
+      <div class="schedule-grid">
+        <div>
+          <h3>🌸 Mehendi</h3>
+          <p>10 Dec 2026 - 4:00 PM</p>
+        </div>
+
+        <div>
+          <h3>💍 Wedding</h3>
+          <p>12 Dec 2026 - 10:00 AM</p>
+        </div>
+
+        <div>
+          <h3>🥂 Reception</h3>
+          <p>13 Dec 2026 - 7:00 PM</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section class="journey reveal" id="story">
+      <h2>Our Journey</h2>
+
+      <div class="timeline">
+        <div>
+          <h3>💍</h3>
+          <h4>Engagement</h4>
+          <p>15 Jan 2025</p>
+        </div>
+
+        <div>
+          <h3>🌸</h3>
+          <h4>Mehendi</h4>
+          <p>10 Dec 2026</p>
+        </div>
+        <div>
+          <h3>🥂</h3>
+          <h4>Reception</h4>
+          <p>12 Dec 2026</p>
+        </div>
+        <div>
+          <h3>❤️</h3>
+          <h4>Wedding</h4>
+          <p>13 Dec 2026</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- COUNTDOWN -->
+    <section class="countdown-section reveal">
+      <h2>Wedding Countdown</h2>
+
+      <div class="countdown">
+        <div>
+          <h3 id="days">00</h3>
+          <p>Days</p>
+        </div>
+
+        <div>
+          <h3 id="hours">00</h3>
+          <p>Hours</p>
+        </div>
+
+        <div>
+          <h3 id="minutes">00</h3>
+          <p>Minutes</p>
+        </div>
+
+        <div>
+          <h3 id="seconds">00</h3>
+          <p>Seconds</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DRESS CODE -->
+    <section class="dress-code reveal">
+      <h2>Dress Code</h2>
+
+      <div class="colors">
+        <div style="background: #d4af37"></div>
+        <div style="background: #fff5e1"></div>
+        <div style="background: #800000"></div>
+        <div style="background: #2e8b57"></div>
+      </div>
+
+      <p>Traditional & Elegant</p>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery" id="gallery">
+      <h2>Beautiful Moments</h2>
+
+      <div class="cinema-gallery">
+        <div class="track">
+          <img
+            src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?q=80&w=900"
+            onclick="openImage(this.src)"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=900"
+            onclick="openImage(this.src)"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?q=80&w=900"
+            onclick="openImage(this.src)"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=900"
+            onclick="openImage(this.src)"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=900"
+            onclick="openImage(this.src)"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1520857014576-2c4f4c972b57?q=80&w=900"
+            onclick="openImage(this.src)"
+          />
+
+          <img
+            src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?q=80&w=900"
+            onclick="openImage(this.src)"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=900"
+            onclick="openImage(this.src)"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?q=80&w=900"
+            onclick="openImage(this.src)"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCATION -->
+    <section class="location reveal" id="location">
+      <h2>Wedding Location</h2>
+
+      <p class="location-text">
+        The Palace Grounds, Bangalore <br />
+        Join us to celebrate our special day ❤️
+      </p>
+
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps?q=Palace+Grounds+Bangalore&output=embed"
+          width="100%"
+          height="350"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        >
+        </iframe>
+      </div>
+
+      <a
+        href="https://www.google.com/maps?q=Palace+Grounds+Bangalore"
+        target="_blank"
+        class="main-btn location-btn"
+      >
+        Get Directions
+      </a>
+    </section>
+
+    <!-- MUSIC -->
+    <audio id="bgMusic" loop>
+      <source src="music.mp3" type="audio/mpeg" />
+    </audio>
+
+    <button class="music-btn" onclick="toggleMusic()">🎵 Music</button>
+
+    <footer>
+      <p>Made with ❤️ for Virat & Anushka</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
